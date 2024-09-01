@@ -80,7 +80,7 @@ useEffect(()=>{
       ))}
     </select>
     {selectedCity&& (<p>
-      You selected <strong>{selectedCity}</strong>,
+      You selected <strong>{selectedCity}</strong>{", "}
       <span style={{color:"lightgrey"}}>{selectedState}, {selectedCountry}</span>
       </p>
     )}
